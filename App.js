@@ -1,10 +1,10 @@
-import './AppOutlets';
+import './src/AppOutlets';
 import * as React from 'react';
 import {Platform, UIManager} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import {Provider as PaperProvider, DefaultTheme} from 'react-native-paper';
-import AppNavigator from './AppNavigator';
-import * as AppContext from './AppContext';
+import AppNavigator from './src/AppNavigator';
+import * as AppContext from './src/AppContext';
 
 const CustomDefaultTheme = {
   ...DefaultTheme,

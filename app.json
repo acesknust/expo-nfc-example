@@ -1,4 +1,33 @@
 {
-  "name": "NfcOpenReader",
-  "displayName": "NfcOpenReader"
+  "expo": {
+    "name": "NfcReWriter",
+    "slug": "nfcrewriter",
+    "version": "0.0.14",
+    "orientation": "portrait",
+    "icon": "./images/nfc-rewriter-icon.png",
+    "splash": {
+      "image": "./images/nfc-512.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./images/nfc-rewriter-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.example.nfcrewriter"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
 }
